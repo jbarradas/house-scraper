@@ -1,0 +1,24 @@
+{
+  "name": "house-scraper",
+  "version": "1.0.0",
+  "description": "Scrape houses from Portuguese real estate websites",
+  "main": "house-scraper-c21-pt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarradas/house-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbarradas/house-scraper/issues"
+  },
+  "homepage": "https://github.com/jbarradas/house-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.3.8",
+    "request-promise": "^4.2.6"
+  }
+}
